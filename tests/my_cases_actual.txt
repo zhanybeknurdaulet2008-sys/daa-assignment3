@@ -1,0 +1,16 @@
+{"status":"ready"}
+{"states":[[4,2],[4,2],[4,2],[3,2],[2,4]]}
+{"cost":-1,"edge_ids":[0,3],"components":2}
+{"cost":-1,"edge_ids":[0,3],"components":2}
+{"component":[1,1,1,2,2,0],"condensation":[[1,2]]}
+{"acyclic":false,"order":[]}
+{"acyclic":true,"distance":[0,1,-2,null,null],"parent_edge":[-1,1,2,-1,-1]}
+{"acyclic":false,"distance":[],"parent_edge":[]}
+{"status":"ready"}
+{"states":[[4,2],[4,2],[4,2],[3,2],[2,4]]}
+{"cost":-1,"edge_ids":[0,3],"components":2}
+{"cost":-1,"edge_ids":[0,3],"components":2}
+{"component":[1,1,1,2,2,0],"condensation":[[1,2]]}
+{"acyclic":false,"order":[]}
+{"acyclic":true,"distance":[0,1,-2,null,null],"parent_edge":[-1,1,2,-1,-1]}
+{"acyclic":false,"distance":[],"parent_edge":[]}

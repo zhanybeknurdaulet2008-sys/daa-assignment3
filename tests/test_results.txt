@@ -1,0 +1,43 @@
+PASS dsu mixed
+PASS dsu empty
+PASS kruskal negative/loop/parallel/isolate
+PASS kruskal tied optima
+PASS kruskal boundary weights
+PASS kruskal empty graph
+PASS kruskal only isolates
+PASS kruskal validator rejects invalid witness
+PASS prim negative/loop/parallel/isolate
+PASS prim tied optima
+PASS prim boundary weights
+PASS prim empty graph
+PASS prim only isolates
+PASS prim validator rejects invalid witness
+PASS kruskal n=100000 chain exact
+PASS prim n=100000 chain exact
+PASS full limit m=250000: kruskal==prim cost, both valid
+PASS dsu full limit (250000 ops)
+PASS scc groups + duplicates + self loop
+PASS scc empty
+PASS scc deep chain n=100000
+PASS scc deep cycle (1 component)
+PASS topo parallel+isolated
+PASS topo self loop
+PASS topo disconnected cycle
+PASS topo deep chain
+PASS topo deep cycle
+PASS topo validator rejects reversed order
+PASS dag distances
+PASS route reachable target
+PASS route source
+PASS route unreachable target
+PASS dag + route tied/parallel
+PASS dag cycle unreachable from source
+PASS dag singleton
+PASS dag validator rejects wrong witness
+PASS dag deep chain + route
+PASS dag full limit m=250000
+PASS main.py: one result line per request
+PASS main.py: ping preserved
+PASS main.py: state reset (2nd batch equals 1st)
+
+41 passed, 0 failed
